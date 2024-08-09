@@ -1,0 +1,38 @@
+Camel Case:
+    Each word,except the first,Starts with a capital letter.
+          Example-myVariableName = "Jhon"
+Pascal case:
+    Each words start with a capital letter.
+          Example-MyVariableName
+Snake case:
+    Each word is separated by an UnderScore character.
+          Example-My_Variable_Name
+MANY VALUES WITH MULTIPLE VARIABLE:-
+     X,Y,Z="orange","banana","apple"
+    print(X)
+    print(Y)
+    print(Z)
+OUTPUT:
+    orange
+    banana
+    apple
+SAME VALUE TO MULTIPLE VARIABLE IN ONE LINE:-
+    X=Y=Z="SUPERSTAR"
+    print(X)
+    print(Y)
+    print(Z)
+OUTPUT:
+   SUPERSTAR
+   SUPERSTAR
+   SUPERSTAR
+UNPACK OF COLLECTION:
+      Collection of values inlist,tuples,etc...,In Python allow the values into variable this is a unpacking.
+         Friut=["orange","apple","banana"]
+        X,Y,Z=Friut
+        print(x)
+        print(Y)
+        print(Z)
+OUTPUT:
+      orange
+      apple 
+      banana
